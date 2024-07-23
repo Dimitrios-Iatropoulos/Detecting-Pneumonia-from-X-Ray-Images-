@@ -35,7 +35,7 @@ This project classifies grayscale chest X-ray images into three categories: norm
 - **Dropout**: 0.5
 - **L2 regularizer**: 0.001
 
-## Best Submission Approache
+## Best Approach
 - We followed the approach of selecting the best model weights based on validation metrics and averaged predictions across folds without reinitializing the model. This can lead to potential data leakage and overfitting issues.
 
 ## Conclusion
